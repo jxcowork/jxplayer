@@ -15,7 +15,7 @@ package com.longtailvideo.jwplayer.view.components {
 		/** Configuration defaults **/
 		protected var defaults:Object = {
 			prefix: "http://www.yuxin001.com/", 
-			file: "logo.png", 
+			file: "", 
 			link: 'http://www.yuxin001.com',
 			linktarget: "_top",
 			margin: 8, 
