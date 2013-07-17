@@ -486,7 +486,7 @@ package com.longtailvideo.jwplayer.view.components {
 			}
 			
 			_fullscreenOverlay = new TooltipOverlay(_player.skin);
-			_fullscreenOverlay.text = "Fullscreen";
+			_fullscreenOverlay.text = "全屏";
 			_fullscreenOverlay.name = "fullscreenOverlay";
 			createOverlay(_fullscreenOverlay, _buttons.fullscreen);
 		}

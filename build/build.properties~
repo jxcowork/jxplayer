@@ -16,7 +16,7 @@ flexsdk = /opt/flex_sdk4.5.1
 execextension =
 
 # Flash player target
-flexsdk.target = 10.2.0
+flexsdk.target = 10.0.0
 
 # -----------------------------------------------------------------
 # Project Settings - DO NOT MODIFY

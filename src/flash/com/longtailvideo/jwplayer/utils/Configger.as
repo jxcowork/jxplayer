@@ -72,9 +72,9 @@ package com.longtailvideo.jwplayer.utils {
 				} catch (e:Error) {}
 			}
 			if (Security.sandboxType == Security.LOCAL_WITH_FILE) {
-				dispatchEvent(new ErrorEvent(ErrorEvent.ERROR, false, false, "Error loading player: Offline playback not supported"));
+				dispatchEvent(new ErrorEvent(ErrorEvent.ERROR, false, false, "加载播放器错误: 不支持离线播放"));
 			} else {
-				dispatchEvent(new ErrorEvent(ErrorEvent.ERROR, false, false, "Error loading player: Could not load player configuration"));
+				dispatchEvent(new ErrorEvent(ErrorEvent.ERROR, false, false, "加载播放器错误: 不能加载播放器配置"));
 			}
 		}
 

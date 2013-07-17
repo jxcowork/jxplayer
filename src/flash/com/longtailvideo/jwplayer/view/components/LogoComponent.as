@@ -14,9 +14,9 @@ package com.longtailvideo.jwplayer.view.components {
 	public class LogoComponent extends CoreComponent implements IPlayerComponent {
 		/** Configuration defaults **/
 		protected var defaults:Object = {
-			prefix: "http://p.jwpcdn.com/", 
+			prefix: "http://www.yuxin001.com/", 
 			file: "logo.png", 
-			link: 'http://www.longtailvideo.com/jwpabout/?a=l&v='+PlayerVersion.version+'&m=f&e=o',
+			link: 'http://www.yuxin001.com',
 			linktarget: "_top",
 			margin: 8, 
 			hide: false, 
@@ -46,7 +46,7 @@ package com.longtailvideo.jwplayer.view.components {
 			animations = new Animations(this);
 			_player = player;
 			var linkFlag:String = _getLinkFlag(_getEdition());
-			defaults.link = 'http://www.longtailvideo.com/jwpabout/?a=l&v='+PlayerVersion.version+'&m=f&e='+linkFlag,
+			defaults.link = 'http://www.yuxin001.com',
 			setupDefaults();
 			setupMouseEvents();
 			loadFile();
