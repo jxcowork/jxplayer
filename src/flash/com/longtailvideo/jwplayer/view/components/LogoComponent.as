@@ -19,7 +19,7 @@ package com.longtailvideo.jwplayer.view.components {
 			link: 'http://www.yuxin001.com',
 			linktarget: "_top",
 			margin: 8, 
-			hide: false, 
+			hide: true, 
 			position: "top-right"
 		}
 		/** Seconds after fading in to hide logo again **/
